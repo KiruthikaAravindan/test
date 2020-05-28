@@ -16,17 +16,7 @@ modules:
     - name: dest_MTAsample
 
 
- - name: testui5
-   type: html5
-   path: testui5
-   parameters:
-      disk-quota: 512M
-      memory: 256M
-   build-parameters:
-      builder: grunt
-   requires:
-    - name: uaa_MTAsample
-    - name: dest_MTAsample
+ 
 
 resources:
  - name: uaa_MTAsample
